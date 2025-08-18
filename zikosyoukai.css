@@ -51,6 +51,7 @@ p.about-me{
 }
 
 .section {
+  position: absolute;
     margin-top:150px;
 }
 
@@ -130,3 +131,13 @@ margin: 80px auto 0 0;
 padding: 0px 50px;
 
 }
+
+.section2{
+
+}
+.div-section2
+.section2-headline
+.section2-ul
+.section2-game
+
+.section2-dd
