@@ -3,9 +3,13 @@
 body {
     margin: 0;
     padding: 0;
+
     background-image: url('https://sozai-good.com/download?id=6214&type=2&subnumber=0&extention=png');
     background-color:#fff1f1; /* 画像が透けて見える背景色 */
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     
     display: flex;
     flex-direction: column;
@@ -21,7 +25,7 @@ body {
     width: 100%;
     
     background-color: #f4b9b9;
-    box-shadow: 0 10px 50px rgba(255, 9, 9, 0.2);
+    box-shadow: 0 10px 50px rgba(255, 9, 9, 0.4);
     z-index: 1000; /* 他のコンテンツの上に表示されるようにする */
 }
 
@@ -47,14 +51,14 @@ p.about-me{
 }
 
 .about-me::before{
-    content: '';
+  content: '';
   position: absolute;
   left: 50%;
   bottom: -15px;/*線の上下位置*/
   width: 800px;/*線の長さ*/
   height: 10px;/*線の太さ*/
   transform: translateX(-50%);/*位置調整*/
-  background-color: #f09d9d;/*線の色*/
+  background-color: #f09d9d;
   border-radius: 5px;/*線の丸み*/
 }
 
@@ -84,7 +88,7 @@ p.about-me{
 
 h2.hello {
     color: #462c2c;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.4); 
     border-radius: 100px;
     border: 6px dashed #462c2c;
     font-size: 50px;
@@ -94,7 +98,7 @@ h2.hello {
 
 ul.about-description{
     margin: 50px 0 0 ;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4); 
     border-radius: 60px;
     border: 3px solid #6e4b4b;
     padding-top: 40px;
@@ -136,7 +140,7 @@ ul.about-description{
 .section2-headline {
   color: #462c2c;
   font-size: 50px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 100px;
   border: 6px dashed #462c2c;
   padding: 0px 50px;
@@ -155,7 +159,7 @@ ul.about-description{
   /* ここに既存のスタイルを維持 */
   width: 500px; /* 例として幅を固定 */
   margin: 0 30px; /* アイテム間の余白 */
-  background-color: #ffffff;
+  background-color:rgba(255, 255, 255, 0.4);
   border: 3px solid #6e4b4b;
   border-radius: 60px;
   padding: 15px;
